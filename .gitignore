@@ -2,17 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CoreLibraries/DimaMazur.Core.DomainPrimitives/obj
-/CoreLibraries/DimaMazur.Core.DomainPrimitives/bin/Debug/net5.0
-/CoreLibraries/DimaMazur.Core.Logging/obj
-/CoreLibraries/DimaMazur.Core.Logging/bin/Debug/net5.0
-/Sales/.vs/DimaMazur.Sales
-/Sales/DimaMazur.Sales.Model/obj
-/Sales/DimaMazur.Sales.Core.Tests/obj
-/Sales/DimaMazur.Sales/obj
-/Sales/src/DimaMazur.Sales/obj
-/Sales/src/DimaMazur.Sales/bin/Debug/net5.0
-/Sales/src/DimaMazur.Sales.Model/obj
-/Sales/src/DimaMazur.Sales.Model/bin/Debug/net5.0
-/Sales/test/DimaMazur.Sales.Core.Tests/obj
-/Sales/test/DimaMazur.Sales.Core.Tests/bin/Debug/net5.0
+.vs/
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.suo
+*.user
+bin
+obj
+packages
