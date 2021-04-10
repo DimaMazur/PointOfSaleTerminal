@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CoreLibraries\DimaMazur.Core.DomainPrimitives\DimaMazur.Core.DomainPrimitives.csproj" />
+    <ProjectReference Include="..\DimaMazur.Sales.Model\DimaMazur.Sales.Model.csproj" />
+  </ItemGroup>
+
+</Project>
